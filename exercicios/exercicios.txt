@@ -1,0 +1,169 @@
+📘 Lista de Exercícios de PHP
+🔹 Nível 1 – Fundamentos da Linguagem
+
+1.Olá Mundo
+Crie um script em PHP que exiba a frase "Olá, Mundo!" na tela.
+
+2.Variáveis simples
+Declare três variáveis: nome, idade e cidade. Exiba-as em uma frase completa.
+
+3.Operações matemáticas
+Peça dois números (definidos no código mesmo) e exiba a soma, subtração, multiplicação e divisão deles.
+
+4.Constantes
+Defina uma constante com o valor de PI e exiba seu valor.
+
+5.Concatenação de strings
+Crie duas variáveis ($primeiroNome, $sobrenome) e exiba o nome completo.
+
+🔹 Nível 2 – Condicionais e Operadores
+
+6.Número par ou ímpar
+Verifique se um número é par ou ímpar.
+
+7.Maior de dois números
+Compare dois números e exiba qual é o maior (ou se são iguais).
+
+8.Classificação de idade
+Peça a idade de uma pessoa (valor fixo no código) e informe se ela é criança, adolescente, adulto ou idoso.
+
+9.Média escolar
+Receba três notas e calcule a média. Exiba se o aluno foi aprovado (>= 7), recuperação (>= 5) ou reprovado.
+
+10.Calculadora simples (if/else)
+Crie uma calculadora que recebe dois números e um operador (+, -, *, /) e retorna o resultado.
+
+🔹 Nível 3 – Laços de Repetição
+
+11.Contagem de 1 a 10 usando for.
+
+12.Tabuada
+Peça um número (fixo) e mostre sua tabuada de 1 a 10.
+
+13.Números pares até 100
+Liste todos os números pares entre 1 e 100.
+
+14.Soma de 1 a N
+Dado um número N, calcule a soma de todos os números de 1 até N.
+
+15.Fatorial
+Calcule o fatorial de um número usando while.
+
+🔹 Nível 4 – Arrays
+
+16.Array de frutas
+Crie um array com 5 frutas e exiba cada uma usando foreach.
+
+17.Soma de valores do array
+Crie um array de números e calcule a soma de todos os elementos.
+
+18.Maior e menor valor
+Em um array de números, encontre o maior e o menor valor.
+
+19.Contagem de elementos
+Crie um array de nomes e mostre quantos elementos ele possui.
+
+20.Array associativo
+Crie um array associativo com informações de uma pessoa (nome, idade, cidade) e exiba em formato de frase.
+
+🔹 Nível 5 – Funções
+
+21.Função soma
+Crie uma função que receba dois números e retorne a soma.
+
+22.Função média
+Crie uma função que receba um array de notas e retorne a média.
+
+23.Função par ou ímpar
+Crie uma função que receba um número e retorne se é par ou ímpar.
+
+24.Função fatorial (recursiva)
+Refatore o exercício 15 usando função recursiva.
+
+25.Função para inverter string
+Crie uma função que receba uma palavra e retorne ela invertida.
+
+🔹 Nível 6 – Manipulação de Strings
+
+26.Quantidade de caracteres
+Receba uma string e exiba quantos caracteres ela possui.
+
+27.Quantidade de palavras
+Conte quantas palavras existem em uma frase.
+
+28.Maiúsculas e minúsculas
+Converta uma string para maiúsculas e minúsculas.
+
+29.Substituição de palavras
+Substitua todas as ocorrências de uma palavra em uma frase por outra.
+
+30.Palíndromo
+Verifique se uma palavra é palíndromo (ex: "arara").
+
+🔹 Nível 7 – Superglobais (Forms e GET/POST)
+
+31.Formulário simples (GET)
+Crie um formulário que recebe o nome do usuário e exibe “Olá, [nome]”.
+
+32.Formulário soma (POST)
+Crie um formulário que pede dois números e exibe a soma.
+
+33.Idade via formulário
+Peça a idade e exiba se o usuário é maior de idade ou não.
+
+34.Formulário de login simples
+Crie um formulário que pede usuário e senha e verifica se são iguais a “admin” e “123”.
+
+35.Formulário que conta palavras
+Recebe uma frase de um formulário e mostra quantas palavras ela tem.
+
+🔹 Nível 8 – Arquivos
+
+36.Criar e escrever em arquivo
+Crie um arquivo dados.txt e grave dentro dele “Olá, PHP!”.
+
+37.Ler arquivo
+Leia o conteúdo de dados.txt e exiba na tela.
+
+38.Adicionar texto no arquivo
+Acrescente uma nova linha de texto no arquivo.
+
+39.Contar linhas do arquivo
+Conte quantas linhas existem no arquivo.
+
+40.Lista de nomes em arquivo
+Grave um array de nomes em um arquivo, cada nome em uma linha.
+
+🔹 Nível 9 – Programação Orientada a Objetos (POO)
+
+41.Classe Pessoa
+Crie uma classe Pessoa com atributos nome e idade e um método para exibir os dados.
+
+42.Classe Calculadora
+Crie uma classe com métodos somar, subtrair, multiplicar e dividir.
+
+43.Classe Conta Bancária
+Crie uma classe com métodos depositar e sacar, e atributo saldo.
+
+44.Classe Aluno
+Crie uma classe Aluno com atributos nome e notas. Crie um método que retorna a média.
+
+45.Herança
+Crie uma classe Funcionario e uma classe Gerente que herda de Funcionario.
+
+🔹 Nível 10 – Projetinho Final
+
+46.Agenda de contatos (array)
+Crie um sistema simples de agenda que permita adicionar, listar e buscar contatos em um array.
+
+47.Simulador de login (session)
+Crie um sistema de login que usa $_SESSION para manter o usuário logado.
+
+48.Lista de tarefas
+Crie uma aplicação simples onde o usuário pode adicionar, listar e remover tarefas (usando arrays).
+
+49.Cadastro de produtos (arquivo)
+Cadastre produtos (nome, preço, quantidade) e salve-os em um arquivo .txt.
+
+50.Mini loja virtual (POO + arquivo ou session)
+Implemente um sistema de carrinho de compras simples em PHP.
